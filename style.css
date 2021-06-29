@@ -58,7 +58,7 @@
     font-size: 42px;
     text-align: center;
     margin-top: 20px;
-    color: rgb(255, 147, 7);
+    color: rgb(255, 94, 0);
 }
 
 .About_Card {
@@ -67,15 +67,15 @@
     margin-bottom: 20px;
     border-radius: 3px;
     padding-bottom: 20px;
-    transition: all .3s;
+    transition: all .3s ease-in-out;
     border-left: 5px solid rgb(255, 123, 0);
-    background-image: linear-gradient(to right, rgb(255, 171, 132), rgb(255, 198, 172));
+    background-image: linear-gradient(to right, rgb(255, 171, 132), rgb(255, 221, 205));
 }
 
 .About_Card:hover {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(45, 46, 44, 0.541);
-    background-image: linear-gradient(to right, rgb(255, 198, 172), rgb(255, 162, 119));
+    background-image: linear-gradient(to right, rgb(255, 218, 200), rgb(255, 162, 119));
 }
 
 .About_Card_Title {
@@ -115,9 +115,14 @@
     width: 100px!important;
     height: 100px;
     display: flex;
+    cursor: pointer;
     color: whitesmoke;
     justify-content: center;
     border-radius: 100%;
     background-image: linear-gradient(to right, rgb(255, 81, 0), rgb(255, 174, 0));
     box-shadow: 5px 5px 20px rgb(170, 170, 170);
+}
+
+.Service_Icons:hover {
+    background-image: linear-gradient(to right, rgb(255, 174, 0), rgb(255, 81, 0));
 }
