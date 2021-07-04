@@ -156,11 +156,9 @@
 }
 
 .Process_Cards {
-    height: 350px;
-    width: 320px!important;
     border-radius: 10px;
     background: white;
-    margin-right: 50px;
+    margin: 10px;
     border-bottom: 5px solid rgb(255, 81, 0);
 }
 
