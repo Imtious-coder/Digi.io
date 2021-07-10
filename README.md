@@ -9,7 +9,9 @@
 * About Us,
 * Our services,
 * Our Process,
-* Why Us section
+* Why Us section,
+* Contact Us and,
+* Footer.
 
 ##### Tech & Tools:- HTML5, CSS3, Bootstrap4, Font Awesome and Git 
 
