@@ -16,7 +16,3 @@
 ##### Tech & Tools:- HTML5, CSS3, Bootstrap4, Font Awesome and Git 
 
 ###### Imtious Islam
-
-https://www.psd2html.com/examples/markup/miqodigitalagency/index.html
-
-https://www.psd2html.com/examples/markup/kingofprizes/index.html
