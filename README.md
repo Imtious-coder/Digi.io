@@ -2,9 +2,10 @@
 
 #### Live site (https://imtious-coder.github.io/ALGONIO/)
 
-## This is a PSD to HTML
-* This is a PSD to HTML
-* Responsive Nabar
+<a  href="https://imtious-coder.github.io/ALGONIO/"><img  width="100%"  height="100%"  src="./image.png"></a>
+
+## This is a PSD to HTML website.
+* Responsive Design
 * Banner,
 * About Us,
 * Our services,
