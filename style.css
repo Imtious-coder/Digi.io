@@ -15,7 +15,7 @@
 }
 
 .Navgations {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #f8f9fa;
 }
 
 .Navgations:hover {
@@ -76,6 +76,16 @@
     background: white;
     color: #f3433b;
     border: 1.5px solid #f3433b;
+}
+
+@media only screen and (max-width: 480px) {
+    #Banner_Info {
+        padding-top: 50px
+    }
+    
+    .Banner_Button {
+        font-size: 12px;
+    }
 }
 
 #About {
