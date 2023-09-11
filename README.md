@@ -4,7 +4,7 @@
 
 <!-- <a  href="https://imtious-coder.github.io/Digi.io/"><img  width="100%"  height="100%"  src="./image.png"></a> -->
 
-<a  href="https://imtious-coder.github.io/Digi.io/"><img  width="100%"  height="100%"  src="./image.png"></a>
+<a  href="https://imtious-coder.github.io/Digi.io/"><img  width="100%"  height="100%"  src="./image1.png"></a>
 
 ## This is a PSD to HTML website.
 
