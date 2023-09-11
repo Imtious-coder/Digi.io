@@ -1,0 +1,426 @@
+.Nav_name {
+    font-size: 32px!important;
+    font-weight: bold;
+}
+
+.Nav_Items {
+    font-size: 14px;
+    margin-right: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.active {
+    color: #f3433b!important;
+}
+
+.Navgations {
+    border-bottom: 2px solid #f8f9fa;
+}
+
+.Navgations:hover {
+    color: #f3433b!important;
+    margin: 0;
+    border-bottom: 2px solid #f3433b;
+}
+
+#Banner {
+    width: 100%;
+    height: 500px;
+    display: block;
+    position: relative;
+}
+
+#Banner::after {
+    content: "";
+    background-image: url(./images.jpg);
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#Banner_Info {
+    width: 100%;
+    font-size: 52px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.Banner_Buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.Banner_Button {
+    height: 45px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-right: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 5px 30px 5px 30px;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid rgb(255, 0, 0);
+    background-image: linear-gradient(to right, #f3433b, #ff5249);
+}
+
+.Banner_Button:hover {
+    background: white;
+    color: #f3433b;
+    border: 1.5px solid #f3433b;
+}
+
+@media only screen and (max-width: 480px) {
+    #Banner_Info {
+        padding-top: 50px
+    }
+    
+    .Banner_Button {
+        font-size: 12px;
+    }
+}
+
+#About {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.About_Icons {
+    font-size: 42px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(255, 94, 0);
+}
+
+.About_Card {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    padding-bottom: 20px;
+    transition: all .3s ease-in-out;
+    border-left: 5px solid rgb(255, 123, 0);
+    background-image: linear-gradient(to right, rgb(255, 171, 132), rgb(255, 221, 205));
+}
+
+.About_Card:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(45, 46, 44, 0.541);
+    background-image: linear-gradient(to right, rgb(255, 218, 200), rgb(255, 162, 119));
+}
+
+.About_Card_Title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(65, 65, 65);
+}
+
+.About_Card_Learn_More {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(255, 89, 11);
+}
+
+.Service_Section {
+    margin-top: 20px;
+    background-color: rgb(255, 250, 244);
+}
+
+.Service_Title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: rgb(70, 70, 70);
+}
+
+.Service_Info {
+    color: rgb(102, 102, 102);
+    border-left: 5px solid red;
+}
+
+.Service_Icons {
+    font-size: 42px;
+    text-align: center;
+    align-items: center;
+    width: 100px!important;
+    height: 100px;
+    display: flex;
+    cursor: pointer;
+    color: whitesmoke;
+    justify-content: center;
+    border-radius: 100%;
+    background-image: linear-gradient(to right, rgb(255, 81, 0), rgb(255, 174, 0));
+    box-shadow: 5px 5px 20px rgb(170, 170, 170);
+}
+
+.Service_Icons:hover {
+    background-image: linear-gradient(to right, rgb(255, 174, 0), rgb(255, 81, 0));
+}
+
+.Process_Section {
+    background: rgb(243, 243, 243);
+}
+
+.Process_Title {
+    font-weight: bold;
+    font-size: 32px;
+    color: rgb(70, 70, 70);
+}
+
+.Process_Description {
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+.Process_Left_Images {
+    width: 80%;
+    height: 400px;
+    border-radius: 5px;
+    background-image: url(./img09.jpg);
+}
+
+.Meeting_Image {
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+    margin-left: -50px;
+    border-radius: 5px;
+}
+
+.Process_Cards {
+    border-radius: 10px;
+    background: white;
+    margin: 10px;
+    border-bottom: 5px solid rgb(255, 81, 0);
+}
+
+.Process_Number {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 100%;
+    background-image: linear-gradient(to right, rgb(255, 81, 0), rgb(255, 174, 0));
+}
+
+.Process_Card_Title {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+
+.Process_Card_Description {
+    color: rgb(102, 102, 102);
+}
+
+#WhyUS_Title {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0;
+    color: rgb(71, 71, 71);
+}
+
+#WhyUS_Sub_Title {
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+#WhyUS_Description {
+    font-size: 16px;
+    margin-left: 10px;
+    color: rgb(78, 78, 78);
+}
+
+.WhyUS_Icons {
+    width: 50px;
+    height: 50px;
+    color: #f3433b;
+    font-size: 22px;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(255, 233, 228), rgb(240, 251, 255));
+}
+
+.WhyUS_List_Text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #f3433b;
+}
+
+.WhyUS_Image {
+    width: 80%;
+    height: 90%;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+#Contact_US {
+    background-color: rgb(0, 8, 49);
+}
+
+#Contact_Title {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+
+#Contact_Description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(177, 177, 177);
+}
+
+#Contact_Us_Button {
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    color: white;
+    font-weight: 500;
+    background-color: #f3433b;
+    transition: all 0.2s ease-in-out;
+}
+
+#Contact_Us_Button:hover {
+    background-color: rgb(0, 8, 49);
+    border: 1.5px solid white;
+}
+
+.Contact_Us_Button_Icon {
+    margin-left: 5px;
+}
+
+.Contact_Us_Right_Section {
+    border-left: 5px solid #f3433b;
+    background-color: rgb(0, 12, 75);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.Contact_Us_Right_Icons {
+    font-size: 32px;
+    color: white;
+    margin-right: 10px;
+}
+
+.Contact_Us_Right_Title {
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 5px;
+    color: rgb(228, 228, 228);
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.Contact_Us_Right_Description {
+    font-size: 15px;
+    margin: 0px;
+    margin-bottom: 5px;
+    color: rgb(201, 201, 201);
+    margin-left: 5px;
+}
+
+#Footer_Description {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(114, 114, 114);
+}
+
+#Footer_Copyright {
+    font-size: 13px;
+    color: rgb(148, 148, 148);
+}
+
+.Footer_Privacy_Terms {
+    text-decoration: underline;
+    font-size: 13px;
+    margin-right: 20px;
+    color: rgb(114, 114, 114);
+    transition: all .3s ease-in-out;
+}
+
+.Footer_Cols_Titles {
+    font-size: 13px;
+    color: rgb(114, 114, 114);
+}
+
+.Footer_Cols_Items {
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(94, 94, 94);
+}
+
+#Footer_Email_Message {
+    font-size: 13px;
+    color: rgb(148, 148, 148);
+}
+
+#Footer_Email {
+    font-size: 20px;
+    color: #f3433b;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hvr {
+    transition: all .4s ease-in-out;
+}
+
+.hvr:hover {
+    color: #f3433b;
+}
+
+.Footer_Social_Icons {
+    font-size: 16px;
+    color: rgb(82, 82, 82);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.Footer_Social_Icons:hover {
+    background: #f3433b;
+    color: white;
+}
+
+
+/* Colors */
+
+.Color1 {
+    color: #f3433b;
+}
